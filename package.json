@@ -1,0 +1,17 @@
+{
+  "name": "photobooth-app",
+  "productName": "Photobooth",
+  "version": "1.0.0",
+  "description": "Photobooth app",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Daniel Santil",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^3.0.0"
+  }
+}
