@@ -6,7 +6,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "build": "rimraf Photobooth-* && electron-packager . --platform=darwin --arch=x64 --icon=app"
+    "build": "rimraf Photobooth-* && electron-packager . --platform=darwin,linux,win32 --arch=x64 --icon=app"
   },
   "keywords": [],
   "author": "Daniel Santil",
