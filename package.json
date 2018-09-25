@@ -5,13 +5,16 @@
   "description": "Photobooth app",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "rimraf Photobooth-* && electron-packager . --platform=darwin --arch=x64 --icon=app"
   },
   "keywords": [],
   "author": "Daniel Santil",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "electron": "^3.0.0"
+  "dependencies": {
+    "electron": "^3.0.0",
+    "electron-packager": "^12.1.2",
+    "fs-extra": "^7.0.0",
+    "rimraf": "^2.6.2"
   }
 }
